@@ -10,7 +10,7 @@ $(document).ready(function() {
     var dayOffInput = $("input#day-off").val();
     var musicInput = $("input#music").val();
     var filmInput = $("input#film").val();
-    var memoryInput = $("input#memory").val();
+    var memoryTextArea = $("textarea#memory").val();
 
     $(".your-name").text(yourNameInput);
     $(".name").text(nameInput);
@@ -22,7 +22,7 @@ $(document).ready(function() {
     $(".day-off").text(dayOffInput);
     $(".music").text(musicInput);
     $(".film").text(filmInput);
-    $(".memory").text(memoryInput);
+    $(".memory").text(memoryTextArea);
 
     $("#favorite-things").show();
 

@@ -13,7 +13,7 @@ This is a webpage where a user can create a list of their favorite things by sub
 * To make the second header tag italic, a different indentation from the other header tags, and all caps ("Favorite"), I selected it specifically in the styles.css file with .jumbotron h1:nth-child(2).
 * I didn't like the way that the form ended and the submitted list began (with no room between), so I added margins at the bottom of the form tag and at the top of the id "favorite-things".
 * I had a lot of trouble fitting the image in the jumbotron header and after a lot of fiddling around, decided that it looked okay, but I definitely wanted to make the image responsive.
-* For text box as found under the "Favorite childhood memory" input
+* For text box as found under the "Favorite childhood memory" input, I used textarea instead of input and replaced input in the Javascript as well with textarea.
 
 ### Links
 
