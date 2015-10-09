@@ -15,6 +15,12 @@ This is a webpage where a user can create a list of their favorite things by sub
 * I had a lot of trouble fitting the image in the jumbotron header and after a lot of fiddling around, decided that it looked okay, but I definitely wanted to make the image responsive.
 * For text box as found under the "Favorite childhood memory" input, I used textarea instead of input and replaced input in the Javascript as well with textarea.
 
+## Technologies Used
+
+* JQuery - uncompressed, development jQuery 1.11.3
+* Bootstrap v.3.3.5
+* Javascript
+
 ### Links
 
 https://midoribowen.github.io/jquery
