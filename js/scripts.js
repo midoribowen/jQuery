@@ -12,17 +12,17 @@ $(document).ready(function() {
     var filmInput = $("input#film").val();
     var memoryInput = $("input#memory").val();
 
-    $(".your-name").append(yourNameInput);
-    $(".name").append(nameInput);
-    $(".place").append(placeInput);
-    $(".color").append(colorInput);
-    $(".meal").append(mealInput);
-    $(".dessert").append(dessertInput);
-    $(".holiday").append(holidayInput);
-    $(".day-off").append(dayOffInput);
-    $(".music").append(musicInput);
-    $(".film").append(filmInput);
-    $(".memory").append(memoryInput);
+    $(".your-name").text(yourNameInput);
+    $(".name").text(nameInput);
+    $(".place").text(placeInput);
+    $(".color").text(colorInput);
+    $(".meal").text(mealInput);
+    $(".dessert").text(dessertInput);
+    $(".holiday").text(holidayInput);
+    $(".day-off").text(dayOffInput);
+    $(".music").text(musicInput);
+    $(".film").text(filmInput);
+    $(".memory").text(memoryInput);
 
     $("#favorite-things").show();
 
